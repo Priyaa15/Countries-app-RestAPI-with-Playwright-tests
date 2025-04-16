@@ -1,0 +1,19 @@
+{
+  "name": "rest-countries-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+  "test:basic": "npx playwright test countries-basic.spec.ts",
+  "test:filters": "npx playwright test countries-filters.spec.ts",
+  "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "typescript": "^5.8.3"
+  }
+}
