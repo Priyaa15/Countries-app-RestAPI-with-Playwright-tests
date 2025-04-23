@@ -24,7 +24,7 @@ jobs:
       # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
-        working-directory: ./Countries-app-RestAPI-with-Playwright-tests/rest-countries-playwright/package.json
+        working-directory: ./Countries-app-RestAPI-with-Playwright-tests/rest-countries-playwright
 
       # Step 4: Run Playwright tests
       - name: Run Playwright tests
